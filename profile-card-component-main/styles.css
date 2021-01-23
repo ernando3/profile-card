@@ -1,0 +1,96 @@
+/* project styles */
+* {
+  background: hsl(185, 75%, 39%);
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top-pattern {
+  position: absolute;
+  left: 1px;
+  bottom: 500px;
+}
+.bot-pattern {
+  position: absolute;
+  right: 1px;
+  top: 500px;
+}
+.card {
+  position: relative;
+  margin: 320px auto 0;
+  text-align: center;
+  width: 360px;
+  border-radius: 20px;
+}
+.card-top {
+  height: 120px;
+  background-image: url(./images/bg-pattern-card.svg);
+  border-radius: 10px 10px 0 0 ;
+}
+.victor {
+  border-radius: 50%;
+  margin-top: 75px;
+}
+.card-bot {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  height: 240px;
+}
+h3 {
+  color:hsl(214, 75%, 24%);
+}
+.name {
+  background: inherit;
+  display: inline-block;
+}
+.age {
+  display: inline-block;
+  margin-left: 4px;
+  background: inherit;
+  color: hsl(227, 10%, 46%);
+  font-weight: 500;
+}
+p {
+  background: inherit;
+  color: hsl(227, 10%, 46%);
+  font-weight: 100;
+}
+.london {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  font-size: 0.9rem;
+}
+hr {
+  color: hsl(185, 75%, 39%);
+  border-width: 1px;
+  border-style: ridge;
+}
+.attributes {
+  margin: 25px auto;
+  background: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 320px;
+}
+.attributes div {
+  background: inherit;
+  flex-basis: 33.3333%;
+}
+.attributes h3 {
+  background: inherit;
+  margin-bottom: 5px;
+}
+.attributes p {
+  font-size: 0.7rem;
+}
+
+/*----------------- media query ------------------*/
+
+@media only screen and (max-width: 375px) {
+
+}
